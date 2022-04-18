@@ -86,7 +86,7 @@
         },
         methods: {
             login(e) {
-                let url = 'http://chamams.com/api/login'
+                let url = 'http://chamams-v0.herokuapp.com/api/login'
                 let configuracao = {
                     method: 'post',
                     body: new URLSearchParams({ // Nativo js para usar o formato x-www-form...

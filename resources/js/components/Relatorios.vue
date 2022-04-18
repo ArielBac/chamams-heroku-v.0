@@ -129,7 +129,7 @@
     export default {
         data() {
             return {
-                urlBase: 'http://chamams.com/api/v1/relatorio',
+                urlBase: 'http://chamams-v0.herokuapp.com/api/v1/relatorio',
                 urlPaginacao: '',
                 urlFiltro: '',
                 transacaoStatus: '',
