@@ -75,7 +75,7 @@ axios.interceptors.response.use(
         console.log('Erro na resposta', error.response)
 
         if (error.response.status == 401 && error.response.data.message == 'Token has expired') {
-            axios.post('http://chamams.com/api/refresh')
+            axios.post('http://chamams-v0.herokuapp.com/api/refresh')
                 .then(response => {
                     document.cookie = 'token=' + response.data.token + ';SameSite=Lax'
 
