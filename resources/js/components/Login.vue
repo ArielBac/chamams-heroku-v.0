@@ -50,10 +50,10 @@
 
                             <div class="form-group row">
                                 <div class="col-md-6 offset-md-4">
-                                    <!-- <a href="http://chamams.com/google/login" class="btn btn-danger btn-block mt-3 w-100">
+                                    <a href="http://chamams-v0.herokuapp.com/google/login" class="btn btn-danger btn-block mt-3 w-100">
                                         Entrar com Google
-                                    </a> -->
-                                    <button type="button" class="btn btn-danger btn-block mt-3 w-100" data-toggle="modal" data-target="#modalLoginGoogle">Entrar com Google</button>
+                                    </a>
+                                    <!-- <button type="button" class="btn btn-danger btn-block mt-3 w-100" data-toggle="modal" data-target="#modalLoginGoogle">Entrar com Google</button> -->
                                 </div>
                             </div>
                         </form>
