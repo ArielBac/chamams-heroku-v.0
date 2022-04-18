@@ -63,7 +63,7 @@
         </div>
 
         <!-- Modal para aviso que login com google não está disponível -->
-        <modal-component id="modalLoginGoogle" titulo="OPS!">
+        <!-- <modal-component id="modalLoginGoogle" titulo="OPS!">
             <template v-slot:conteudo>
                 Pedimos desculpas, em breve esta opção estará disponível
             </template>
@@ -71,7 +71,7 @@
             <template v-slot:rodape>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
             </template>
-        </modal-component>
+        </modal-component> -->
     </div>
 </template>
 

@@ -71,10 +71,10 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                {{-- <a href="http://chamams.com/google/login" class="btn btn-danger btn-block">
+                                <a href="http://chamams-v0.herokuapp.com/google/login" class="btn btn-danger btn-block">
                                     Entrar com Google
-                                </a> --}}
-                                <button type="button" class="btn btn-danger btn-block w-100" data-toggle="modal" data-target="#modalLoginGoogle">Entrar com Google</button>
+                                </a>
+                                {{-- <button type="button" class="btn btn-danger btn-block w-100" data-toggle="modal" data-target="#modalLoginGoogle">Entrar com Google</button> --}}
                             </div>
                         </div>
                     </form>
@@ -83,7 +83,7 @@
         </div>
     </div>
     <!-- Modal para aviso que login com google não está disponível -->
-    <modal-component id="modalLoginGoogle" titulo="OPS!">
+    {{-- <modal-component id="modalLoginGoogle" titulo="OPS!">
         <template v-slot:conteudo>
             Pedimos desculpas, em breve esta opção estará disponível
         </template>
@@ -91,6 +91,6 @@
         <template v-slot:rodape>
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
         </template>
-    </modal-component>
+    </modal-component> --}}
 </div>
 @endsection
